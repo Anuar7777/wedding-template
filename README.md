@@ -24,6 +24,22 @@ yarn dev
 
 Open `/` on the dev server URL printed by Next.js.
 
+## Docker
+
+```bash
+cp .env.example .env
+# edit .env — set NEXT_PUBLIC_API_BASE_URL and NEXT_PUBLIC_SITE_URL
+docker compose up --build -d
+```
+
+Open `http://localhost:3000` (or the host port from `PORT` in `.env`).
+
+Rebuild after config or env changes:
+
+```bash
+docker compose up --build -d
+```
+
 ## RSVP
 
 The RSVP form posts to `POST /api/guests` on the API configured by `NEXT_PUBLIC_API_BASE_URL`.

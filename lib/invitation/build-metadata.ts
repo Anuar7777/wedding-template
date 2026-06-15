@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import type { HeroImageKey } from './assets'
 import type { InvitationEventConfig } from './types'
 
-const site = (process.env.NEXT_PUBLIC_SITE_URL ?? 'http://localhost:3000').replace(/\/$/, '')
+const site = (process.env.NEXT_PUBLIC_SITE_URL?.trim() || 'http://localhost:3000').replace(/\/$/, '')
 
 /** OG preview images (Telegram/WhatsApp). Google Drive direct view URLs. */
 const OG_HERO_IMAGES: Record<HeroImageKey, { url: string; width: number; height: number }> = {
