@@ -17,9 +17,10 @@ const OG_HERO_IMAGES: Record<
 		height: 1152,
 	},
 	heroWedding: {
-		url: 'https://drive.google.com/file/d/1JX3opi0tyuuLWnNYTdcS2xgW0ttW1WrS',
-		width: 900,
-		height: 1200,
+		// Self-hosted OG image — Drive /view links break Telegram/WhatsApp crawlers.
+		url: '/images/wedding/hero_wedding_new.jpg',
+		width: 736,
+		height: 981,
 	},
 }
 
