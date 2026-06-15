@@ -1,0 +1,79 @@
+{
+	"id": "WEDDING_TEMPLATE",
+	"routePath": "/",
+	"metadata": {
+		"title": "Ерсұлтан & Ақерке - Үйлену тойы",
+		"description": "Ерсұлтан мен Ақеркенің үйлену тойына шақыру",
+		"ogImageKey": "heroWedding",
+		"twitterDescription": "Сіздерді үйлену тойымыздың қадірлі қонағы болуға шақырамыз"
+	},
+	"hero": {
+		"title": "Ерсұлтан & Ақерке",
+		"subtitleLines": ["ҮЙЛЕНУ ТОЙЫ"],
+		"imageKey": "heroWedding"
+	},
+	"greeting": {
+		"heading": "Құрметті қонақтар!",
+		"guestList": "Құрметті ағайын-туыс, бауырлар, құда-жекжат, нағашы-жиен, бөлелер, дос-жаран, әріптестер және көршілер!",
+		"bodyBeforeHighlight": "Сіздерді ",
+		"highlightNames": ["Ерсұлтан", "Ақеркенің"],
+		"highlightSeparator": " мен ",
+		"bodyAfterHighlight": " үйлену тойына арналған салтанатты ақ дастарханымыздың қадірлі қонағы болуға шақырамыз."
+	},
+	"calendar": {
+		"monthLabel": "Тамыз",
+		"yearLabel": "2026",
+		"firstDayOfMonth": 5,
+		"daysInMonth": 31,
+		"highlightedDay": 29,
+		"weekdayLabel": "Сенбі",
+		"timeLabel": "17:00"
+	},
+	"countdown": {
+		"targetIso": "2026-08-29T17:00:00"
+	},
+	"venue": {
+		"name": "AQ SARAI",
+		"address": "мкр. Бахыт, 9, с. Акмол",
+		"latitude": 51.078517,
+		"longitude": 70.981475,
+		"mapTitle": "AQ SARAI",
+		"gisUrl": "https://2gis.kz/firm/70000001090545105/70.981475%2C51.078517?m=70.981507%2C51.078409%2F20"
+	},
+	"hosts": {
+		"label": "Той иелері:",
+		"nameParts": [
+			{ "text": "Ата-анасы" },
+			{ "text": "Қайыргелді және Тілеукен," },
+			{ "text": "інісі Ғалым", "nowrap": true }
+		]
+	},
+	"rsvp": {
+		"sectionTitle": "Тойға келуіңізді растауыңызды сұраймыз!",
+		"showHalalBadge": true
+	},
+	"closing": {
+		"title": "Келіңіздер, тойымыздың қадірлі қонағы болыңыздар!"
+	},
+	"audioSrc": "/audio/wedding.mp3",
+	"dressCode": {
+		"layout": "attire",
+		"titleImage": true,
+		"lead": "Мерекенің түстер үйлесімін қолдасаңыздар өте қуанышты боламыз:",
+		"sides": [
+			{
+				"icon": "tuxedo",
+				"label": "ЕРЛЕР ҚАУЫМЫ:",
+				"lines": ["ҚАРА", "СМОКИНГ"]
+			},
+			{
+				"icon": "dress",
+				"label": "ӘЙЕЛДЕР ҚАУЫМЫ:",
+				"lines": ["АСПАН КӨК", "ТҮСТІ КӨЙЛЕК"]
+			}
+		]
+	},
+	"sections": {
+		"showDressCode": true
+	}
+}
