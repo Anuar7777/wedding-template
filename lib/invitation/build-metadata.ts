@@ -17,7 +17,7 @@ const OG_HERO_IMAGES: Record<
 		height: 1152,
 	},
 	heroWedding: {
-		url: 'https://drive.google.com/file/d/1uCdxjnxztWtpftILl6CsGIdr_cRhkkhq/view?usp=drive_link',
+		url: 'https://drive.google.com/uc?export=view&id=1uCdxjnxztWtpftILl6CsGIdr_cRhkkhq',
 		width: 736,
 		height: 981,
 	},
