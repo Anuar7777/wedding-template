@@ -12,9 +12,9 @@ const OG_HERO_IMAGES: Record<HeroImageKey, { url: string; width: number; height:
 		height: 1152,
 	},
 	heroWedding: {
-		url: 'https://drive.google.com/uc?export=view&id=1mpwF_h8fMCl_IF3vuoA5vPU_oj2ed-6d',
-		width: 896,
-		height: 1194,
+		url: 'https://drive.google.com/uc?export=view&id=1uCdxjnxztWtpftILl6CsGIdr_cRhkkhq',
+		width: 736,
+		height: 981,
 	},
 }
 

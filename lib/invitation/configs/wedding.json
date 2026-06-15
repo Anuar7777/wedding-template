@@ -57,21 +57,10 @@
 	},
 	"audioSrc": "/audio/wedding.mp3",
 	"dressCode": {
-		"layout": "attire",
-		"titleImage": true,
+		"layout": "palette",
+		"title": "Дресс-код",
 		"lead": "Мерекенің түстер үйлесімін қолдасаңыздар өте қуанышты боламыз:",
-		"sides": [
-			{
-				"icon": "tuxedo",
-				"label": "ЕРЛЕР ҚАУЫМЫ:",
-				"lines": ["ҚАРА", "СМОКИНГ"]
-			},
-			{
-				"icon": "dress",
-				"label": "ӘЙЕЛДЕР ҚАУЫМЫ:",
-				"lines": ["АСПАН КӨК", "ТҮСТІ КӨЙЛЕК"]
-			}
-		]
+		"titleVariant": "cyrillic"
 	},
 	"sections": {
 		"showDressCode": true
