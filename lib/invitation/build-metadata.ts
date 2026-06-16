@@ -11,11 +11,6 @@ const OG_HERO_IMAGES: Record<
 	HeroImageKey,
 	{ url: string; width: number; height: number }
 > = {
-	heroInvitation: {
-		url: 'https://drive.google.com/uc?export=view&id=1GJWMGmGgbvdYOCuGZZ8NIn1J3_k1N-2U',
-		width: 923,
-		height: 1152,
-	},
 	heroWedding: {
 		// Self-hosted OG image — Drive /view links break Telegram/WhatsApp crawlers.
 		url: '/images/wedding/hero_wedding_new.jpg',

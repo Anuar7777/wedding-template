@@ -2,7 +2,7 @@ import { z } from 'zod'
 import type { InvitationEventConfig, InvitationEventConfigJson } from './types'
 import { resolveHeroImage } from './assets'
 
-const heroImageKeySchema = z.enum(['heroInvitation', 'heroWedding'])
+const heroImageKeySchema = z.enum(['heroWedding'])
 
 const invitationEventConfigSchema = z.object({
 	id: z.enum(['WEDDING_TEMPLATE']),
